@@ -1,12 +1,14 @@
 import mapFile
 import pygame
-import sys
-import os
 
+#Initializes pygame and names window
 pygame.init()
-screen = pygame.display.set_mode((mapFile.mapSize_X*mapFile.tileSize_X,mapFile.mapSize_Y*mapFile.tileSize_Y))
 pygame.display.set_caption("Map Parse")
+#Sets screen size based on number and size of tiles
+screen = pygame.display.set_mode((mapFile.mapSize_X*mapFile.tileSize_X,mapFile.mapSize_Y*mapFile.tileSize_Y))
 
+
+#This builds the map 
 x_cord = 0
 y_cord = 0
 m_count = 0
@@ -24,6 +26,8 @@ for node in range(0,len(mapFile.map)):
 				x_cord = 0
 				m_count = 0
 
+
+# This is the PyGame active state
 active = True
 while active:
 	for event in pygame.event.get():
