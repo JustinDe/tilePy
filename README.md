@@ -11,9 +11,9 @@ Requirements:
 ---
 
 TODO:
-* Clean Up Code
+* Clean Up Code - Done
 * Define Default Tile
-* Validate map size
+* Validate map size - Done
 * GridLines
 * Map File Generator (enter dimensions, mats, etc. Creates default file)
 * Define anatomy of mapfile
