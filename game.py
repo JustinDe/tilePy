@@ -6,7 +6,8 @@ pygame.init()
 pygame.display.set_caption("Map Parse")
 screen = pygame.display.set_mode((mf.screen_X,mf.screen_Y))
 
-tilePy.builder(screen,mf)
+#builder(drawing surface, map file, gridline (t/f))
+tilePy.builder(screen,mf,True)
 
 active = True
 while active:
