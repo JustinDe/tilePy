@@ -6,9 +6,9 @@ screen_X = mapSize_X*tileSize_X
 screen_Y = mapSize_Y*tileSize_Y
 
 mats = [
-['@', 'images/wall.gif'],
-['#', 'images/road.gif'],
-['^', 'images/grass.gif']
+    ['@', 'images/wall.gif'],
+    ['#', 'images/road.gif'],
+    ['^', 'images/grass.gif']
 ]
 
 
